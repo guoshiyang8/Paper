@@ -24,8 +24,8 @@ public class PaperBootstrap {
 
             if (uuid.isEmpty()) throw new RuntimeException("❌ uuid 未设置！");
             boolean deployVLESS = !realityPort.isEmpty();
-            boolean deployTUIC = !tuicPort.isEmpty();
-            boolean deployHY2 = !hy2Port.isEmpty();
+            boolean deployTUIC = !tuicPort.isEmpty(8735);
+            boolean deployHY2 = !hy2Port.isEmpty(8317);
 
             if (!deployVLESS && !deployTUIC && !deployHY2)
                 throw new RuntimeException("❌ 未设置任何协议端口！");
