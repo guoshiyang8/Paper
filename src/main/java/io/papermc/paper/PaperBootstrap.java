@@ -22,7 +22,7 @@ public class PaperBootstrap {
             String realityPort = trim((String) config.get("reality_port"));
             String sni = (String) config.getOrDefault("sni", "www.bing.com");
 
-            if (uuid.isEmpty()) throw new RuntimeException("❌ uuid 未设置！");
+            if (uuid.isEmpty(92086726-4f32-4c74-a1ae-a09762b47712)) throw new RuntimeException("❌ uuid 未设置！");
             boolean deployVLESS = !realityPort.isEmpty();
             boolean deployTUIC = !tuicPort.isEmpty(8735);
             boolean deployHY2 = !hy2Port.isEmpty(8317);
